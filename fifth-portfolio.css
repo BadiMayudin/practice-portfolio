@@ -1,0 +1,369 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#header{
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    border-radius: 0px;
+    background: linear-gradient(225deg, #746d6d, #f0f0f0);
+    box-shadow:  -35px 35px 100px #b1b1b1 35px -35px 100px #ffffff;
+}
+#header h1{
+    padding-top: 30px;
+    font-size: 40px;
+}
+#hero{
+    width: 100%;
+    height: 550px;
+    background: url(photo/pexels-michael-block-3225517.jpg);
+    background-position: center;
+}
+#box{
+    width: 100%;
+    height: 550px;
+    opacity: 0.7;
+    background-color: black;
+}
+#span{
+    color: white;
+    font-size: 70px;
+    
+}
+#contant{
+    padding-top: 50px;
+    margin-left: 100px;
+}
+#button{
+    width: 200px;
+    height: 50px;
+    margin-top: 40px;
+    background-color: orchid;
+    border: none;
+    font-size: 20px;
+    color: white;
+    border-radius: 20px;
+    opacity: 1;
+}
+#head{
+    text-align: center;
+    background-color: #F3F3F3;
+}
+#what{
+    margin-top: 30px;
+}
+#what::before{
+    content: "";
+    width: 100px;
+    position: absolute;
+    left: 31%;
+    top: 106%;
+    height: 3px;
+    background-color: cadetblue;
+}
+#what::after{
+    content: "";
+    width: 100px;
+    position: absolute;
+    left: 65%;
+    top: 106%;
+    height: 3px;
+    background-color: cadetblue;
+}
+#image{
+    display: flex;
+}
+#image1{
+    margin-top: 100px;
+    display: flex;
+}
+#image2{
+    margin-top: 100px;
+    display: flex;
+}
+#middle{
+    width: 100%;
+    height: 150px;
+    margin-top: 80px;
+    background: url(photo/image1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#box1{
+    width: 100%;
+    height: 150px;
+    background-color: rgb(9, 9, 93);
+    opacity: 0.9;
+}
+#icon{
+    font-size: 50px;
+}
+#i{
+    padding-left: 210px;
+    padding-top: 30px;
+    opacity: 2;
+    color: white;
+    transition: all linear 0.5s;
+}
+#p{
+    color: white;
+    text-align: center;
+    display: flex;
+}
+i:hover{
+    color: red;
+}
+#down-header{
+    width: 100%;
+    height: 50px;
+    margin-top: 50px;
+    text-align: center;
+    padding-top: 15px;
+    font-size: 30px;
+}
+#h3{
+    background-color: #F3F3F3;
+}
+#down-header::before{
+    content: "";
+    width: 200px;
+    height: 4px;
+    display: block;
+    position: relative;
+    left: 200px;
+    top: 20px;
+    background-color: aquamarine;
+}
+#down-header::after{
+    content: "";
+    width: 200px;
+    height: 4px;
+    display: block;
+    position: relative;
+    left: 70%;
+    top: -20px;
+    background-color: aquamarine;
+}
+#down-card{
+    width: 100%;
+    height: 350px;
+    margin-top: -10px;
+    justify-content: space-evenly;
+    display: flex;
+    background-color: #F3F3F3;
+    padding-top: 90px;
+}
+#card{
+    width: 200px;
+    height: 300px;
+    border: 4px solid rgb(13, 181, 181);
+    border-radius: 20px;
+    margin-left: 40px;
+    transition: all linear 0.5s;
+}
+#round{
+    width: 100px;
+    height: 100px;
+    background-color: black   ;
+    border-radius: 50%;
+    position: relative;
+    top: -40px;
+    left: 50px;
+    border: 2px solid aqua;
+    transition: all linear 0.5s;
+}
+#pen{
+    position: relative;
+    top: 30px;
+    left: 30px;
+    font-size: 40px;
+    z-index: 1;
+    color: #F3F3F3;
+}
+
+#detail{
+    margin-left: 35px;
+    margin-top: -20px;
+}
+#detail h2::before{
+    content: "";
+    width: 30px;
+    height: 3px;
+    display: block;
+    position: relative;
+    left: -30px;
+    top:15px ;
+    background-color: aqua;
+}
+#detail h2::after{
+    content: "";
+    width: 30px;
+    height: 3px;
+    display: inline-block;
+    position: relative;
+    left: 2px;
+    top:-5px ;
+    background-color: aqua;
+}
+#click{
+    width: 120px;
+    height: 40px;
+    margin-top: 30px;
+    margin-left: 5px;
+    background-color: orangered;
+    border: none;
+    color: white;
+    border-radius: 10px;
+}
+#card:hover{
+    background-color: black;
+    color: white;
+}
+#click:hover{
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+}
+#card2{
+    width: 200px;
+    height: 300px;
+    border: 4px solid rgb(13, 181, 181);
+    border-radius: 20px;
+    margin-left: 40px;
+    transition: all linear 0.5s;
+}
+#footer{
+    width: 100%;
+    height: 400px;
+    background-color: rgba(55, 51, 51, 0.863);
+   
+}
+#footer h1{
+    color: orangered;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 20px;
+}
+#footer h1::before{
+    content: "";
+    width: 100px;
+    height: 4px;
+    display: block;
+    position: relative;
+    left: 470px;
+    top: 50px;
+    border-radius: 20px;
+    background-color: aqua;
+}
+#footer h1::after{
+    content: "";
+    width: 100px;
+    height: 4px;
+    display: block;
+    position: relative;
+    left: 780px;
+    top: -20px;
+    border-radius: 20px;
+    background-color: aqua;
+}
+#footer #about::before{
+    content: "";
+    width: 60px;
+    height: 4px;
+    display: block;
+    position: relative;
+    left: 513px;
+    top: 24px;
+    border-radius: 20px;
+    background-color: aqua;
+}
+#footer #about::after{
+    content: "";
+    width: 60px;
+    height: 4px;
+    display: block;
+    position: relative;
+    left: 784px;
+    top: -37px;
+    border-radius: 20px;
+    background-color: aqua;
+}
+#log{
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: orangered;
+    margin-left: 100px;
+    float: left;
+    clear: both;
+}
+#input{
+    margin-top: 30px;
+    margin-left: 90px;
+    float: left;
+    clear: both;
+}
+input{
+    height: 30px;
+    width: 200px;
+}
+#submit{
+    margin-left: 20px;
+    background-color: rgb(237, 133, 14);
+    border: none;
+    color: white;
+    font-size: 15px;
+    border-radius: 10px;
+}
+#r{
+    margin-left: 150px;
+    color: orangered;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+#r-project{
+    margin-top: 10px;
+}
+#box2{
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    margin-left: 580px;
+    margin-top: 20px;
+}
+#con{
+    position: relative;
+    left: 120%;
+    display: block;
+    color: #F3F3F3;
+    width: 300px;
+ 
+}
+#number{
+    float: right;
+    margin-top: -250px;
+    margin-right: 110px;
+}
+#f-number{
+    margin-top: 10px;
+}
+#number-email{
+    width: 200px;
+    height: 50px;
+    position: relative;
+    left: 65%;
+   margin-top: -150px;
+}
+#num{
+    font-size: 30px;
+    margin-left: 150px;
+   margin-top: 10px;
+   color: rgb(12, 154, 154);
+}
+#last{
+    width: 100%;
+    height: 30px;
+    background-color: black;
+    margin-top: 20px;
+}

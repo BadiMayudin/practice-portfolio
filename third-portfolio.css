@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+}
+#upper-header{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    
+}
+#contact{
+    padding-top: 7px;
+    margin-left: 100px;
+    display: flex;
+
+}
+i{
+    margin-left: 30px;
+}
+#span{
+    color: white;
+    padding-top: 5px;
+}
+#f{
+    font-size: 20px;
+    margin-left: 20px;
+}
+#right-text{
+    text-align: right;
+    margin-right: 400px;
+    margin-top: -20px;
+}
+#info{
+    color: white;
+}
+span{
+    color: white;
+}
+#number{
+    color: green;
+}
+#call{
+    text-align: right;
+    margin-right: 180px;
+    margin-top: -16px;
+}
+#background-image{
+    width: 100%;
+    height: 600px;
+    background: url(photo/jober.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#contant{
+    padding-top: 100px;
+    margin-left: 100px;
+    color: white;
+}
+#more{
+    width: 200px;
+    height: 40px;
+    border: 1px solid black;
+    background-color: transparent;
+    border-radius: 20px;
+    margin-top: 50px;
+    color: darkblue;
+    font-size: 20px;
+    font-weight: 700;
+}
+#main-header{
+    width: 100%;
+    height: 100px;
+    background-color: white;
+}
+#anchor{
+    margin-left: 200px;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% , -50%);
+}
+#magnifire{
+    position: relative;
+    left: 120%;
+    top: 35%;
+    transform: translate(-50% , -50%);
+}
+i{
+    font-size: 20px;
+}
+select{
+    outline: none;
+    border: none;
+    font-size: 16px;
+    margin-left: 25px;
+}
+#button{
+   width: 150px;
+   height: 50px;
+   background-color: rgb(17, 192, 17);
+   border: none;
+   color: white;
+   font-size: 20px;
+   border-radius: 20px;
+   margin-left: 20px;
+   transition: all linear 0.5s;
+}
+#button:hover{
+    color: green;
+    background-color: white;
+    border: 1px solid black;
+}
+#footer{
+    justify-content: space-evenly   ;
+}
+#box{
+    width: 80px;
+    height: 80px;
+    background-color: green;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    border-radius: 50%;
+    transform: translate(-50% , -112%);
+}
+#f-card{
+    width: 200px;
+    height: 300px;
+    border: 1px solid black;
+    margin-left: 100px;
+    position: absolute;
+    top: 700px;
+    background-color: white;
+}
+#solution{
+    margin-top: 70px;
+}
+#solution h3{
+    text-align: center;
+}
+#f-card:hover {
+    background-color: black;
+    color: white;
+}
+#f-card1{
+    width: 200px;
+    height: 300px;
+    border: 1px solid black;
+    margin-left: 400px;
+    position: absolute;
+    top: 700px;
+    background-color: white;
+}
+#f-card2{
+    width: 200px;
+    height: 300px;
+    border: 1px solid black;
+    margin-left: 700px;
+    position: absolute;
+    top: 700px;
+    background-color: white;
+}
+#f-card3{
+    width: 200px;
+    height: 300px;
+    border: 1px solid black;
+    margin-left: 1000px;
+    position: absolute;
+    top: 700px;
+    background-color: white;
+}
+#f-card1:hover{
+    background-color: black;
+    color: white;
+}
+#f-card2:hover{
+    background-color: black;
+    color: white;
+}
+#f-card3:hover{
+    background-color: black;
+    color: white;
+}

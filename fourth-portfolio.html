@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="fourth-portfolio.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body id="body">
+    <div id="header">
+        <h3 style="color: gray;">Mayudin</h3>
+        <div id="anchor">
+            <a href="" style="color: blue;">Home</a>
+            <a href="">About</a>
+            <a href="">Service</a>
+            <a href="">Portfolio</a>
+            <a href="">ContactMe</a>
+        </div>
+       <div class="moon">
+        <button style="width: 50px;height: 50px;color: white; border-radius: 50%;background-color: black;border: 1px solid white;margin-top: 30px;" onclick="abc()">Dark Mode</button>
+        <button style="width: 50px;height: 50px; border-radius: 50%;background-color: rgb(255, 252, 252);border: 1px solid rgb(0, 0, 0);margin-left: 10px;color: black;margin-top: 30px;" onclick="xyz()">White Mode</button>
+    </div>
+       <div id="left">
+        <i class="fa-brands fa-linkedin-in" id="link"></i> <br><br>
+        <i class="fa-solid fa-globe" id="link"></i><br><br>
+        <i class="fa-brands fa-github" id="link"></i>
+       </div>
+       <div id="contant">
+          <div id="h1">
+            <h1>Hi , I'm Mayudin</h1>
+          </div>
+            <h2 style="margin-top: 10px;color: gray;">Fronted Devloper</h2>
+            <p style="width: 200px;padding-top: 10px;color: gray;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, quos!</p>
+            <button id="button">Contact Me</button>
+       </div>
+       <div id="right-contant">
+        <img src="photo/my-removebg-preview.png" alt="" width="200px" height="250px" style="margin-top: -40px;margin-left: -15px;">
+       </div>
+    </div>
+    <script>
+        
+        function abc(){
+            var target = document.getElementById("header")
+            target.style.background = "black"
+            target.style.color = "white"
+        }
+        function xyz(){
+            var target = document.getElementById("header")
+            target.style.background = "white"
+            target.style.color = "black"
+        }
+    </script>
+</body>
+</html>

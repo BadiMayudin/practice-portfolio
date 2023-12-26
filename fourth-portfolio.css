@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: gainsboro;
+}
+#header{
+    width: 95%;
+    height: 500px;
+    background-color: white;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% , -50%);
+    border-radius: 40px;
+    transition: all linear 0.5s;
+}
+#h1{
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 1px solid #000;
+    animation: anim 3s steps(30) infinite  ;
+}
+@keyframes anim{
+    0%{width: 0;}   
+    100%{width: 260px;}   
+}
+#header h3{
+    color: black;
+    margin-left: 100px;
+    font-size: 30px;
+    padding-top: 40px;
+}
+#anchor{
+    text-align: right;
+    margin-right: 150px;
+    margin-top: -20px;
+}
+a{
+    padding-left: 20px;
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+    
+}
+.moon{
+    text-align: right;
+    margin-right: 40px;
+    margin-top: -20px;
+}
+i:hover{
+    color: blue;
+}
+#left{
+   margin-top: 125px;
+    margin-left: 145px;
+}
+#contant{
+    position: absolute;
+    left: 20%;
+    top: 40%;
+}
+#button{
+    width: 150px;
+    height: 40px;
+    border: none;
+    margin-top: 40px;
+    background-color: rgb(38, 38, 204);
+    border-radius: 10px;
+    color: white;
+    font-weight: 700;
+    transition: all linear 0.5s;
+}
+#button:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+#right-contant{
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(to left bottom, purple , white);
+    border-radius: 40%;
+    margin-left: 850px;
+    margin-top: -170px;
+    overflow: hidden;
+}
+a{
+    color: gray;
+}
+.class{
+    transition: all linear 0.5s;
+    background-color: black;
+}
